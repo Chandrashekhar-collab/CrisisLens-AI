@@ -1,0 +1,125 @@
+event_code,root_code,root_name,quad_class,quad_class_name,description
+01,01,Make Public Statement,1,Verbal Cooperation,Make public statement
+010,01,Make Public Statement,1,Verbal Cooperation,Make statement not otherwise specified
+011,01,Make Public Statement,1,Verbal Cooperation,Decline comment
+012,01,Make Public Statement,1,Verbal Cooperation,Make pessimistic comment
+013,01,Make Public Statement,1,Verbal Cooperation,Make optimistic comment
+014,01,Make Public Statement,1,Verbal Cooperation,Consider policy option
+015,01,Make Public Statement,1,Verbal Cooperation,Acknowledge or claim responsibility
+016,01,Make Public Statement,1,Verbal Cooperation,Make empathetic comment
+017,01,Make Public Statement,1,Verbal Cooperation,Engage in symbolic act
+018,01,Make Public Statement,1,Verbal Cooperation,Make empathetic statement
+02,02,Appeal,1,Verbal Cooperation,Appeal
+020,02,Appeal,1,Verbal Cooperation,Appeal not otherwise specified
+021,02,Appeal,1,Verbal Cooperation,Appeal for material cooperation
+022,02,Appeal,1,Verbal Cooperation,Appeal for diplomatic cooperation
+023,02,Appeal,1,Verbal Cooperation,Appeal for aid
+024,02,Appeal,1,Verbal Cooperation,Appeal for political reform
+025,02,Appeal,1,Verbal Cooperation,Appeal to yield
+03,03,Express Intent,1,Verbal Cooperation,Express intent to cooperate
+030,03,Express Intent,1,Verbal Cooperation,Express intent not otherwise specified
+031,03,Express Intent,1,Verbal Cooperation,Express intent to engage in material cooperation
+032,03,Express Intent,1,Verbal Cooperation,Express intent to engage in diplomatic cooperation
+033,03,Express Intent,1,Verbal Cooperation,Express intent to provide aid
+04,04,Consult,1,Verbal Cooperation,Consult
+040,04,Consult,1,Verbal Cooperation,Consult not otherwise specified
+041,04,Consult,1,Verbal Cooperation,Discuss by telephone
+042,04,Consult,1,Verbal Cooperation,Make visit
+043,04,Consult,1,Verbal Cooperation,Host visit
+044,04,Consult,1,Verbal Cooperation,Meet at third location
+045,04,Consult,1,Verbal Cooperation,Mediate
+05,05,Engage in Diplomatic Cooperation,1,Verbal Cooperation,Engage in diplomatic cooperation
+050,05,Engage in Diplomatic Cooperation,1,Verbal Cooperation,Diplomatic cooperation not specified
+051,05,Engage in Diplomatic Cooperation,1,Verbal Cooperation,Praise or endorse
+052,05,Engage in Diplomatic Cooperation,1,Verbal Cooperation,Defend verbally
+053,05,Engage in Diplomatic Cooperation,1,Verbal Cooperation,Rally support on behalf of
+054,05,Engage in Diplomatic Cooperation,1,Verbal Cooperation,Grant diplomatic recognition
+057,05,Engage in Diplomatic Cooperation,1,Verbal Cooperation,Sign formal agreement
+06,06,Engage in Material Cooperation,2,Material Cooperation,Engage in material cooperation
+060,06,Engage in Material Cooperation,2,Material Cooperation,Material cooperation not specified
+061,06,Engage in Material Cooperation,2,Material Cooperation,Cooperate economically
+062,06,Engage in Material Cooperation,2,Material Cooperation,Cooperate militarily
+063,06,Engage in Material Cooperation,2,Material Cooperation,Cooperate judicially
+064,06,Engage in Material Cooperation,2,Material Cooperation,Share intelligence or information
+07,07,Provide Aid,2,Material Cooperation,Provide aid
+070,07,Provide Aid,2,Material Cooperation,Provide aid not specified
+071,07,Provide Aid,2,Material Cooperation,Provide economic aid
+072,07,Provide Aid,2,Material Cooperation,Provide military aid
+073,07,Provide Aid,2,Material Cooperation,Provide humanitarian aid
+074,07,Provide Aid,2,Material Cooperation,Provide military protection or peacekeeping
+08,08,Yield,2,Material Cooperation,Yield
+080,08,Yield,2,Material Cooperation,Yield not specified
+081,08,Yield,2,Material Cooperation,Ease administrative sanctions
+082,08,Yield,2,Material Cooperation,Ease economic sanctions
+083,08,Yield,2,Material Cooperation,Release or return persons or property
+084,08,Yield,2,Material Cooperation,Return, withdraw or concede
+09,09,Investigate,1,Verbal Cooperation,Investigate
+090,09,Investigate,1,Verbal Cooperation,Investigate not specified
+091,09,Investigate,1,Verbal Cooperation,Investigate crime, corruption
+092,09,Investigate,1,Verbal Cooperation,Investigate human rights abuses
+093,09,Investigate,1,Verbal Cooperation,Investigate military or security actions
+10,10,Demand,3,Verbal Conflict,Demand
+100,10,Demand,3,Verbal Conflict,Demand not specified
+101,10,Demand,3,Verbal Conflict,Demand information or investigation
+102,10,Demand,3,Verbal Conflict,Demand policy support
+103,10,Demand,3,Verbal Conflict,Demand material cooperation
+104,10,Demand,3,Verbal Conflict,Demand political reform
+11,11,Disapprove,3,Verbal Conflict,Disapprove
+110,11,Disapprove,3,Verbal Conflict,Disapprove not specified
+111,11,Disapprove,3,Verbal Conflict,Criticize or denounce
+112,11,Disapprove,3,Verbal Conflict,Accuse
+113,11,Disapprove,3,Verbal Conflict,Rally opposition against
+114,11,Disapprove,3,Verbal Conflict,Complain officially
+12,12,Reject,3,Verbal Conflict,Reject
+120,12,Reject,3,Verbal Conflict,Reject not specified
+121,12,Reject,3,Verbal Conflict,Reject material cooperation
+122,12,Reject,3,Verbal Conflict,Reject request for aid
+123,12,Reject,3,Verbal Conflict,Reject proposal or agreement
+124,12,Reject,3,Verbal Conflict,Refuse to yield
+13,13,Threaten,3,Verbal Conflict,Threaten
+130,13,Threaten,3,Verbal Conflict,Threaten not specified
+131,13,Threaten,3,Verbal Conflict,Threaten non-force sanctions
+132,13,Threaten,3,Verbal Conflict,Threaten administrative sanctions
+138,13,Threaten,3,Verbal Conflict,Threaten with military force
+14,14,Protest,3,Verbal Conflict,Protest
+140,14,Protest,3,Verbal Conflict,Engage in political dissent
+141,14,Protest,3,Verbal Conflict,Demonstrate or rally
+142,14,Protest,3,Verbal Conflict,Conduct hunger strike
+143,14,Protest,3,Verbal Conflict,Conduct strike or boycott
+144,14,Protest,3,Verbal Conflict,Obstruct passage or block
+145,14,Protest,3,Verbal Conflict,Protest violently or riot
+15,15,Exhibit Force Posture,4,Material Conflict,Exhibit force posture
+150,15,Exhibit Force Posture,4,Material Conflict,Demonstrate military ability
+151,15,Exhibit Force Posture,4,Material Conflict,Increase police alert status
+152,15,Exhibit Force Posture,4,Material Conflict,Increase military alert status
+153,15,Exhibit Force Posture,4,Material Conflict,Mobilize or deploy armed forces
+16,16,Reduce Relations,3,Verbal Conflict,Reduce relations
+160,16,Reduce Relations,3,Verbal Conflict,Reduce relations not specified
+161,16,Reduce Relations,3,Verbal Conflict,Reduce or break diplomatic relations
+162,16,Reduce Relations,3,Verbal Conflict,Reduce or stop aid
+163,16,Reduce Relations,3,Verbal Conflict,Impose embargo or boycott
+17,17,Coerce,4,Material Conflict,Coerce
+170,17,Coerce,4,Material Conflict,Coerce not specified
+171,17,Coerce,4,Material Conflict,Seize or damage property
+172,17,Coerce,4,Material Conflict,Impose administrative sanction or curfew
+173,17,Coerce,4,Material Conflict,Arrest, detain or confine
+174,17,Coerce,4,Material Conflict,Expel or deport individuals
+18,18,Assault,4,Material Conflict,Assault
+180,18,Assault,4,Material Conflict,Use unconventional violence
+181,18,Assault,4,Material Conflict,Abduct, hijack or take hostage
+182,18,Assault,4,Material Conflict,Physically assault
+183,18,Assault,4,Material Conflict,Conduct suicide or car bombing
+186,18,Assault,4,Material Conflict,Assassinate
+19,19,Fight,4,Material Conflict,Fight
+190,19,Fight,4,Material Conflict,Use conventional military force
+191,19,Fight,4,Material Conflict,Impose blockade or restrict movement
+192,19,Fight,4,Material Conflict,Occupy territory
+193,19,Fight,4,Material Conflict,Fight with artillery or small arms
+194,19,Fight,4,Material Conflict,Fight with tanks or heavy weapons
+195,19,Fight,4,Material Conflict,Employ aerial weapons or missiles
+20,20,Engage in Unconventional Mass Violence,4,Material Conflict,Engage in unconventional mass violence
+200,20,Engage in Unconventional Mass Violence,4,Material Conflict,Mass violence not specified
+201,20,Engage in Unconventional Mass Violence,4,Material Conflict,Mass expulsion
+202,20,Engage in Unconventional Mass Violence,4,Material Conflict,Mass killings
+203,20,Engage in Unconventional Mass Violence,4,Material Conflict,Ethnic cleansing
+204,20,Engage in Unconventional Mass Violence,4,Material Conflict,Use weapons of mass destruction

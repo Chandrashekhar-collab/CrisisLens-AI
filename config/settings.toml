@@ -1,0 +1,25 @@
+# CrisisLens AI Runtime Configuration
+# All application knobs are centralized here. No hardcoded magic numbers.
+
+[data]
+rolling_window_days = 30        # Number of days of events to maintain in memory/active store
+max_raw_file_age_days = 30      # Retention policy for raw downloaded GDELT ZIP archives
+chunk_size = 50000              # Rows per chunk for streaming TSV parsing
+parquet_compression = "snappy"  # snappy | gzip | zstd
+
+[models]
+default_level = 1               # 1 = rolling z-score/IQR baseline, 2 = STL residual, 3 = Isolation Forest
+zscore_threshold = 2.5          # Standard deviations above rolling mean to flag anomaly
+iqr_multiplier = 1.5            # Tukey's fence multiplier (Q3 + 1.5 * IQR)
+if_contamination = 0.05         # Isolation Forest estimated contamination fraction
+if_n_estimators = 100           # Isolation Forest tree count
+random_seed = 42                # Seed for deterministic model fitting and reproducibility
+
+[ui]
+map_default_zoom = 2            # Initial zoom level for global map views
+max_table_rows = 5000           # Maximum rows rendered in Event Explorer table
+date_format = "%Y-%m-%d"        # Standard display and filter date formatting
+
+[export]
+csv_encoding = "utf-8-sig"      # UTF-8 with BOM for Excel compatibility
+pdf_page_size = "A4"            # Standard PDF export page dimension
